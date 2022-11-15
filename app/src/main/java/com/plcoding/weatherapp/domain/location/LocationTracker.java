@@ -2,6 +2,6 @@ package com.plcoding.weatherapp.domain.location;
 
 import android.location.Location;
 
-interface LocationTracker {
+public interface LocationTracker {
      suspend fun getCurrentLocation(): Location?
 }
